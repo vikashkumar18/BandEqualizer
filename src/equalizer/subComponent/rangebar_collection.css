@@ -1,0 +1,22 @@
+.input-vertical {
+  height: 150px;
+  width: 205px;
+  display: inline-block;
+  position: relative;
+}
+
+.input-vertical input:nth-child(1) {
+  left: 10px;
+}
+.input-vertical input:nth-child(2) {
+  left: 50px;
+}
+.input-vertical input:nth-child(3) {
+  left: 90px;
+}
+.input-vertical input:nth-child(4) {
+  left: 130px;
+}
+.input-vertical input:nth-child(5) {
+  left: 170px;
+}

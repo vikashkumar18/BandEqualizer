@@ -1,0 +1,34 @@
+{
+  "name": "equalizer",
+  "version": "1.0.0",
+  "description": "uses react story book to develop a simple band equalizer",
+  "main": "index.js",
+  "devDependencies": {
+    "@storybook/react": "^3.1.7"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "prop-types": "^15.5.10"
+  },
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build_storybook": "build-storybook -c .storybook -o out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashkumar18/BandEqualizer.git"
+  },
+  "keywords": [
+    "equalizer",
+    "input",
+    "range"
+  ],
+  "author": "vikash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikashkumar18/BandEqualizer/issues"
+  },
+  "homepage": "https://github.com/vikashkumar18/BandEqualizer#readme"
+}
