@@ -62,7 +62,8 @@ class Equalizer extends Component {
 
   selectChange(value) {
     const settings = presets[value];
-    this.setState({ settings });
+    this.setState({ settings, selectedValue: value });
+    this.props.onChange(settings);
   }
   render() {
     const freqBands = ['60', '310', '1k', '6k', '16k'];
