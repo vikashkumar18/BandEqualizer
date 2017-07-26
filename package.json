@@ -4,7 +4,17 @@
   "description": "uses react story book to develop a simple band equalizer",
   "main": "index.js",
   "devDependencies": {
-    "@storybook/react": "^3.1.7"
+    "@storybook/react": "^3.1.7",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-prettier": "^1.5.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-unicorn": "^2.1.2",
+    "eslint-watch": "^3.0.1"
   },
   "dependencies": {
     "react": "^15.6.1",

@@ -1,0 +1,44 @@
+---
+root: true
+extends: [
+  "airbnb",
+  "prettier",
+  "prettier/react",
+  "plugin:jest/recommended",
+  "plugin:unicorn/recommended"
+]
+
+env:
+  es6: true
+  browser: true
+
+parserOptions:
+  ecmaFeatures:
+    modules: false
+    jsx: true
+
+plugins:
+  - react
+  - jest
+  - unicorn
+
+rules:
+  no-return-assign: 0
+  func-style: ["error", "expression", { "allowArrowFunctions": true }]
+  comma-dangle: [2, never]
+  import/no-extraneous-dependencies: ["error", {"devDependencies": ["src/stories/**", "**/__tests__/**"]}]
+
+  # React rules
+  react/jsx-uses-react: 1
+  react/jsx-filename-extension: 0
+  react/no-unused-prop-types: [2, {skipShapeProps: true}]
+  react/no-unescaped-entities: 0
+  react/require-default-props: 0
+
+  # imports
+  import/no-named-as-default: 0
+
+  # unicorn
+  unicorn/filename-case: 0
+  unicorn/explicit-length-check: 0
+  unicorn/number-literal-case: 0 # conflicts with prettier or something
